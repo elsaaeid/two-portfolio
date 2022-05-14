@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -77,7 +77,7 @@
         <div class="row">
                 <div class="col-lg-4">
                     <a href="#" data-toggle="tooltip" title="Creative idea!" class="Creative idea" id="toglle">
-                        <div class="idea-img"><img src="assets/img/open.jpg" alt="" width="100%" height="100%" class="think"
+                        <div class="idea-img"><img src="assets/img/open.png" alt="" width="100%" height="100%" class="think"
                                 id="myImage" onclick="changeImage()"></div>
                     </a>
                 </div>
@@ -91,15 +91,15 @@
                     <div class="bann-icons">
                         <div class="button whatsapp-icon">
                             <li>
-                                <div class="icon1"><a href="https://api.whatsapp.com/send?phone=+2001028496209" title="whatsapp" target="_blank"><i
+                                <div class="icon1"><a href="https://api.www.whatsapp.com/send?phone=+201028496209" title="whatsapp" target="_blank"><i
                                             class="fab fa-whatsapp"></i></a></div>
-                                <span><a href="https://api.whatsapp.com/send?phone=+2001028496209" title="whatsapp" target="_blank" class="whatsapp">Call
+                                <span><a href="https://www.whatsapp.com/" title="whatsapp" target="_blank" class="whatsapp">Call
                                         me:01028496209</a></span>
                             </li>
                         </div>
                         <div class="button one-icon">
                             <li>
-                                <div class="icon2"><a href="https://www.facebook.com/saaed.sadaoy" title="Facebook" target="_blank"><i
+                                <div class="icon2"><a href="https://fb.me/25ixCyQ0EW3PMer" title="Facebook" target="_blank"><i
                                             class="fab fa-facebook"></i></a></div>
                                 <span><a href="https://www.facebook.com/saaed.sadaoy" title="Facebook" target="_blank"
                                         class="facebook">Facebook</a></span>
@@ -107,15 +107,15 @@
                         </div>
                         <div class="button two-icon">
                             <li>
-                                <div class="icon3"><a href="https://github.com/elsaaeid" title="github" target="_blank"><i class="fab fa-github"></i></a></div>
-                                <span><a href="https://github.com/elsaaeid" title="github" target="_blank" class="github">Github</a></span>
+                                <div class="icon3"><a href="https://github.com/elsaeedsadaoy" title="github" target="_blank"><i class="fab fa-github"></i></a></div>
+                                <span><a href="https://www.github.com/" title="github" target="_blank" class="github">Github</a></span>
                             </li>
                         </div>
                         <div class="button three-icon">
                             <li>
-                                <div class="icon4"><a href="https://www.linkedin.com/in/saaeid-ellithy-9017811b2" title="LinkedIn" target="_blank"><i
+                                <div class="icon4"><a href="https://www.linkedin.com/in/elsaaeid-ellithy-9017811b2" title="LinkedIn" target="_blank"><i
                                             class="fab fa-linkedin-in"></i></a></div>
-                                <span><a href="https://www.linkedin.com/in/saaeid-ellithy-9017811b2" title="Linkedin-in" target="_blank"
+                                <span><a href="https://www.linkedin.com/" title="Linkedin-in" target="_blank"
                                         class="linkedin-in">Linkedin-in</a></span>
                             </li>
                         </div>
@@ -218,12 +218,13 @@
                 if ((c == 0) || (mylinks.style.display === "block")) {
                     mylinks.style.display = "none";
                     bulb.src = "assets/img/sha.jpg";
-                   
                     c = 1;
+		    x.classList.toggle("change");
                 }
                 else if (c == 1) {
                      mylinks.style.display = "block";
                     bulb.src = "assets/img/shha.jpg";
+		    x.classList.toggle("defualt");
                     c=0;
                 };
               
@@ -236,13 +237,13 @@
              var imagelogo = document.getElementById('logoimg');
             function changeImage() {
                 if (c == 0) {
-                    image.src = "assets/img/open.jpg";
+                    image.src = "assets/img/open.png";
                     document.getElementById("toglle").title = "Turn ON";
                     c = 1;
                      imagelogo.src = "assets/img/logo.png";
                 }
                 else if (c == 1) {
-                    image.src = "assets/img/close.jpg";
+                    image.src = "assets/img/close.png";
                     document.getElementById("toglle").title = "Turn OFF";
                     c = 0;
                     imagelogo.src = "assets/img/logo1.png";
