@@ -2325,12 +2325,12 @@ input.btn.btn-primary {
     left: 60px;
     z-index: 200;
   }
-  .think {
+.think {
     width: 55px;
-    height: 55px;
+    height: 70px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   .content .row {
     position: absolute;
@@ -7565,12 +7565,13 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 14px;
   }
-  .think {
-    width: 70px;
-    height: 70px;
+.think {
+    margin-left: 90px;
+    width: 50px;
+    height: 60px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -8570,12 +8571,12 @@ input.btn.btn-primary {
     animation-fill-mode: backwards;
     left: -380px;
   }
-  .think {
-    width: 50px;
-    height: 50px;
+.think {
+    width: 60px;
+    height: 80px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   #checked:checked ~ .content .row {
     margin-left: 55px;
@@ -10475,12 +10476,13 @@ input.btn.btn-primary {
     left: -518px;
     top: 4px;
   }
-  .think {
+.think {
     width: 50px;
-    height: 50px;
+    height: 64px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+    margin-left: -87px;
+}
   /*-------------------------about-----------------------*/
   #checked:checked ~ .content .row {
     margin-left: 55px;
@@ -11616,12 +11618,13 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
-    width: 40px;
-    height: 40px;
+.think {
+    width: 50px;
+    height: 66px;
     border-radius: 100px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: -69px;
+    margin-left: 102px;
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -17972,12 +17975,13 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
-    width: 40px;
-    height: 40px;
+.think {
+    width: 45px;
+    height: 60px;
     border-radius: 100px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: -87px;
+    margin-left: 62px;
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -21022,12 +21026,13 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
+.think {
     width: 40px;
-    height: 40px;
+    height: 50px;
     border-radius: 100px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: -49px;
+    margin-left: 25px;
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -22006,12 +22011,12 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
+ .think {
     width: 40px;
-    height: 40px;
+    height: 52px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -22829,12 +22834,12 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
+.think {
     width: 40px;
-    height: 40px;
+    height: 50px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   #checked:checked ~ .content .row {
     margin-left: 55px;
@@ -23699,12 +23704,12 @@ input.btn.btn-primary {
     left: -120px;
     top: -10px;
   }
-  .think {
-    width: 37px;
-    height: 37px;
+.think {
+    width: 40px;
+    height: 50px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
+}
   /*-------------------------about-----------------------*/
   .content-title2 {
     position: absolute;
@@ -27579,12 +27584,13 @@ input.btn.btn-primary {
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
     font-size: 10px;
   }
-  .think {
-    width: 30px;
-    height: 30px;
+.think {
+    width: 35px;
+    height: 45px;
     border-radius: 100px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: -62px;
+    margin-left: 28px;
+}
   .content .bann-icons {
     z-index: 20;
     position: absolute;
