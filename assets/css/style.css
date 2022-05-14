@@ -6,7 +6,6 @@
 @import url(font-awesome.min.css);
 /*
     font-family: 'Poppins', sans-serif;
-
     font-family: 'Dosis', sans-serif;
 */
 /*------------------------------------------------------------------
@@ -545,7 +544,7 @@ label {
   box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
 }
 .content .banner {
-  background: #1a534f;
+  background: url(../img/banner.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -978,7 +977,7 @@ div#p-explain {
 }
 .think {
     width: 60px;
-    height: 60px;
+    height: 74px;
     border-radius: 100px;
     margin-bottom: 10px;
 }
