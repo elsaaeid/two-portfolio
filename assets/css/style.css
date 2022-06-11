@@ -312,6 +312,7 @@ a.linkedin-in {
   height: 155px;
   width: 248px;
   left: 450px;
+  transition: 0.5s;
 }
 .bann-icons .button .icon2 {
   display: inline-block;
