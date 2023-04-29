@@ -1,0 +1,1593 @@
+@import url(style.css);
+
+@media only screen and (max-width: 1280px) {
+    /*------------------HOME-------------------*/
+    .button:hover {
+        width: 150px;
+        transition: ease-in-out 0.5s;
+    }
+    .button:hover span a {
+        margin-left: 36px;
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    .one-icon:hover span a {
+        margin-left: -11px;
+        font-size: 10px;
+        margin-top: -4px;
+    }
+     /*-------------------------about-----------------------*/
+  #cert-section {
+    position: absolute;
+    top: 655px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .img1-border {
+    height: 313px;
+    width: 659px;
+  }
+  .img2-border {
+    height: 313px;
+    width: 659px;
+  }
+  .mask-icon {
+    width: 659px;
+    height: 308px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  .mask-icon h2 {
+    font-size: 25px;
+    width: 150px;
+    border-radius: 6px;
+    position: absolute;
+    left: 15vw;
+    top: 8vh;
+  }
+  .download-cv {
+    position: absolute;
+    top: 1295px;
+    left: 829px;
+    width: 180px;
+    height: 42px;
+  }
+  .download-cv button {
+    padding: 15px;
+    width: 169px;
+    height: 42px;
+    margin-left: 5px;
+  }
+  .cv {
+    width: 289px;
+    height: 384px;
+    position: absolute;
+    top: 575px;
+    right: -809px;
+  }
+  .modal {
+    padding-top: 113px;
+    left: 92px;
+    top: 114px;
+    width: 88%;
+    height: 91%;
+  }
+  .modal-content {
+    width: 80%;
+    height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 145px;
+    right: 21px;
+    font-size: 46px;
+  }
+  .content .row {
+    position: absolute;
+    top: 218px;
+    left: 250px;
+  }
+  .skills {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 307px;
+    margin-top: 20px;
+  }
+  .progress-bar span {
+    font-size: 8px;
+}
+.progress-bar {
+    font-size: 8px;
+}
+  .content .row .education {
+    position: absolute;
+    top: 356px;
+    left: 445px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    height: 247px;
+  }
+  .content .row .experience {
+    position: absolute;
+    top: 356px;
+    left: -12px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    height: 247px;
+  }
+  .download-cv {
+    position: absolute;
+    top: 1216px;
+    left: 576px;
+    width: 180px;
+    height: 45px;
+}
+   /*-----------------------services--------------*/
+   .service {
+    width: 320px;
+    height: 425px;
+    margin-bottom: 18px;
+  }
+  .services {
+    position: absolute;
+    top: 279px;
+    left: 145px;
+  }
+  /*-------------------------recent-works-----------------------*/
+  .products-box {
+    padding: 232px;
+    margin-left: -212px;
+  }
+  .container {
+    position: absolute;
+    top: 147px;
+    left: 28px;
+}
+  .special-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 87px;
+}
+  .filter-button-group button {
+    background: var(--orange-color);
+    color: var(--light-color);
+    border: none;
+    cursor: pointer;
+    padding: 7px 16px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 269px;
+  }
+  .img-fluid {
+    height: auto;
+    width: 175px;
+  }
+  .row.special-list {
+    top: 51px;
+    left: 137px;
+    width: 100%;
+}
+  .products-single .box-img-hover {
+    overflow: hidden;
+    position: relative;
+    width: 270px;
+  }
+  .mask-task {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+  }
+  .mask-task h2 {
+    background: var(--orange-color);
+    color: var(--light-color);
+    text-align: center;
+    font-size: 25px;
+    width: 131px;
+    border-radius: 6px;
+    position: absolute;
+    left: 26px;
+    top: 3vh;
+  }
+  /*-------------------------contacts-----------------------*/
+  .contacts {
+    position: absolute;
+    top: 260px;
+    left: 253px;
+  }
+  .contact {
+    width: 240px;
+    height: 335px;
+    margin-bottom: 18px;
+  }
+  .contact .icon {
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    margin-left: 60px;
+    position: absolute;
+    top: 27px;
+  }
+  .content-contact {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+  .content-contact p {
+    margin-top: -42px;
+    padding: 6px;
+  }
+  .contact-box {
+    position: absolute;
+    top: 625px;
+    left: 194px;
+    width: 903px;
+    height: 687px;
+  }
+  .map {
+    margin-left: 0px;
+  }
+  .form-label {
+    width: 54%;
+    height: 61%;
+    margin-top: 40px;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+  }
+  input.btn.btn-primary {
+    margin-left: 115px;
+  }
+  input.btn.btn-primary {
+    position: absolute;
+    left: -68px;
+    top: 563px;
+  }
+  .footer-container {
+    position: absolute;
+    top: 1333px;
+    left: 110px;
+    width: 1077px;
+    text-align: center;
+    height: 115px;
+  }
+}
+@media only screen and (max-width: 1024px){
+    /*------------------------sevice-------------------*/
+.service {
+    width: 250px;
+    height: 425px;
+    margin-bottom: 18px;
+}
+ /*-------------------------recent-works-----------------------*/
+ .products-box {
+    padding: 232px;
+    margin-left: -212px;
+  }
+  .container {
+    position: absolute;
+    top: 105px;
+    left: -35px;
+}
+  .special-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 111px;
+}
+  .filter-button-group button {
+    background: var(--orange-color);
+    color: var(--light-color);
+    border: none;
+    cursor: pointer;
+    padding: 7px 16px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 269px;
+  }
+  .img-fluid {
+    height: auto;
+    width: 175px;
+  }
+  .row.special-list {
+    top: 51px;
+    left: 137px;
+    width: 100%;
+}
+  .products-single .box-img-hover {
+    overflow: hidden;
+    position: relative;
+    width: 270px;
+  }
+  .mask-task {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+  }
+  .mask-task h2 {
+    background: var(--orange-color);
+    color: var(--light-color);
+    text-align: center;
+    font-size: 25px;
+    width: 131px;
+    border-radius: 6px;
+    position: absolute;
+    left: 26px;
+    top: 3vh;
+  }
+}
+@media only screen and (max-width: 912px) {
+ /*-------------------------about-----------------------*/
+ .content-title2 {
+    position: absolute;
+    top: 17px;
+    left: 320px;
+    width: 230px;
+    z-index: 5;
+  }
+  .content .row {
+    position: absolute;
+    top: 77px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: 0.5s;
+  }
+  .skills {
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .content .row .education {
+    position: absolute;
+    top: 357px;
+    left: 16px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    height: 261px;
+  }
+  .content .row .experience {
+    position: absolute;
+    top: 357px;
+    left: 237px;
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    height: 261px;
+  }
+  #cert-section {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 648px;
+    left: 0px;
+    flex-direction: row;
+  }
+  .img1-border {
+    height: 313px;
+    width: 224px;
+  }
+  .img2-border {
+    height: 313px;
+    width: 224px;
+  }
+  .mask-icon {
+    width: 224px;
+    height: 307px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 15px;
+  }
+  .mask-icon h2 {
+    font-size: 25px;
+    width: 150px;
+    border-radius: 6px;
+    position: absolute;
+    left: 8vw;
+    top: 18vh;
+  }
+  .download-cv {
+    position: absolute;
+    top: 1067px;
+    left: 353px;
+    width: 180px;
+    height: 42px;
+  }
+  .download-cv button {
+    padding: 15px;
+    width: 169px;
+    height: 42px;
+    margin-left: 5px;
+  }
+  .cv {
+    width: 178px;
+    height: 289px;
+    position: absolute;
+    top: 656px;
+    right: -320px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 113px;
+    left: 80px;
+    top: 31px;
+    width: 88%;
+    height: 96%;
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: inherit;
+    height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 145px;
+    right: 21px;
+    font-size: 46px;
+  }
+  /*-----------------------services--------------*/
+  .service {
+    width: 241px;
+    height: 425px;
+    margin-bottom: 18px;
+  }
+  .services {
+    position: absolute;
+    top: 102px;
+    left: 170px;
+  }
+ /*-------------------------contacts-----------------------*/
+ .contacts {
+    position: absolute;
+    top: 141px;
+    left: 176px;
+  }
+  .contact {
+    width: 240px;
+    height: 335px;
+    text-align: center;
+  }
+  .contact .icon {
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    margin-left: 60px;
+    position: absolute;
+    top: 27px;
+  }
+  .content-contact {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+  .content-contact p {
+    margin-top: -42px;
+    padding: 6px;
+  }
+  .contact-box {
+    position: absolute;
+    top: 882px;
+    left: 125px;
+    width: 696px;
+    height: 687px;
+  }
+  .box {
+    width: 223px;
+    position: absolute;
+  }
+  .map {
+    margin-left: 0px;
+  }
+  .form-label {
+    width: 54%;
+    height: 61%;
+    margin-top: 40px;
+    margin-left: 32px;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    margin-left: -23px;
+  }
+  input.btn.btn-primary {
+    margin-left: 115px;
+  }
+  input.btn.btn-primary {
+    position: absolute;
+    left: -68px;
+    top: 563px;
+  }
+  .footer-container {
+    position: absolute;
+    top: 1587px;
+    left: 97px;
+    width: 722px;
+    text-align: center;
+    height: 115px;
+}
+  /*-------------------------activity-----------------------*/
+  table.table {
+    margin-left: 155px;
+    margin-top: 97px;
+    line-height: 63px;
+  }
+  thead.thead {
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+  }
+  tr.trGraph {
+    font-size: 21px;
+    line-height: 51px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 540px) {
+    /*-------------------------home-----------------------*/
+
+  .links {
+    top: -40px;
+    left: -39px;
+    width: 300px;
+    height: 300px;
+  }
+  .links a i {
+    font-size: 17px;
+  }
+  .links a:nth-child(1) {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+  }
+  #desktop {
+    position: absolute;
+    top: 5px;
+    left: -11px;
+  }
+  .links a:nth-child(2) {
+    position: absolute;
+    top: 67px;
+    left: 240px;
+    width: 32px;
+    height: 32px;
+  }
+  #user {
+    position: absolute;
+    top: 4px;
+    left: -8px;
+  }
+  .links a:nth-child(3) {
+    position: absolute;
+    top: 196px;
+    left: 240px;
+    width: 32px;
+    height: 32px;
+  }
+  #table {
+    position: absolute;
+    top: 5px;
+    left: -9px;
+  }
+  .links a:nth-child(4) {
+    position: absolute;
+    top: 261px;
+    left: 130px;
+    width: 32px;
+    height: 32px;
+  }
+  #chart {
+    position: absolute;
+    top: 6px;
+    left: -9px;
+  }
+  .links a:nth-child(5) {
+    position: absolute;
+    top: 196px;
+    left: 19px;
+    width: 32px;
+    height: 32px;
+  }
+  #th {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+  }
+  .links a:nth-child(6) {
+    position: absolute;
+    top: 67px;
+    left: 19px;
+    width: 32px;
+    height: 32px;
+  }
+  #circle {
+    position: absolute;
+    left: -10px;
+    top: 4px;
+  }
+  .square span:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
+  }
+  .square span:nth-child(2) {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 210px;
+    height: 210px;
+  }
+  div#myContain {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .content2 {
+    position: relative;
+    top: 82px;
+    left: 1px;
+  }
+  div#p-explain {
+    font-size: 11px;
+    position: absolute;
+    top: 31px;
+  }
+  .content h3 {
+    font-size: 11px;
+  }
+  .caption {
+    width: 144px;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+  }
+  .content2 a {
+    position: absolute;
+    top: 77px;
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 10px;
+  }
+   /*-------------------------about-----------------------*/
+   .content-title2 {
+    position: absolute;
+    top: 13px;
+    left: 154px;
+    width: 204px;
+  }
+  #checked:checked ~ .content .row {
+    margin-left: 55px;
+  }
+  #checked:checked ~ .content .download-cv {
+    margin-left: 55px;
+  }
+  .content .row {
+    position: absolute;
+    top: 132px;
+    left: 132px;
+  }
+  .skills {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .progress {
+    display: flex;
+    height: 1rem;
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .content .row .education {
+    position: absolute;
+    top: 660px;
+    left: 16px;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    height: 261px;
+  }
+  .content .row .experience {
+    position: absolute;
+    top: 945px;
+    left: 16px;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    height: 261px;
+  }
+  #cert-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1210px;
+    left: 0px;
+  }
+  .img1-border {
+    height: 313px;
+    width: 256px;
+  }
+  .img2-border {
+    height: 313px;
+    width: 256px;
+  }
+  .mask-icon {
+    width: 256px;
+    height: 307px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  .mask-icon h2 {
+    text-align: center;
+    font-size: 25px;
+    width: 150px;
+    border-radius: 6px;
+    position: absolute;
+    left: 8vw;
+    top: 18vh;
+  }
+  .download-cv {
+    position: absolute;
+    top: 1663px;
+    left: 174px;
+    width: 180px;
+    height: 42px;
+  }
+  .download-cv button {
+    width: 169px;
+    height: 42px;
+    margin-left: 5px;
+  }
+  .cv {
+    width: 227px;
+    height: 289px;
+    position: absolute;
+    top: 1532px;
+    right: -242px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 113px;
+    left: 92px;
+    top: 114px;
+    width: 88%;
+    height: 91%;
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 72px;
+    right: 52px;
+    font-size: 46px;
+  }
+  /*-------------------------services-----------------------*/
+  .services {
+    position: absolute;
+    top: 92px;
+    left: 136px;
+  }
+  .service {
+    width: 230px;
+    height: 472px;
+    margin-bottom: 18px;
+}
+  /*-------------------------contacts-----------------------*/
+  .contacts {
+    position: absolute;
+    top: 98px;
+    left: 132px;
+  }
+  .contact-box {
+    position: absolute;
+    top: 1170px;
+    left: 132px;
+    width: 221px;
+    height: 142vh;
+}
+  .map {
+    margin-left: 0px;
+  }
+  .form-label {
+    width: 73%;
+    margin-left: -32px;
+    height: 61%;
+    margin-top: 40px;
+}
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+  }
+  input.btn.btn-primary {
+    position: absolute;
+    left: -60px;
+    top: 574px;
+  }
+  .footer-container {
+    position: absolute;
+    top: 2350px;
+    left: 102px;
+    width: 307px;
+    height: 135px;
+  }
+
+  /*-------------------------activity-----------------------*/
+  table.table {
+    margin-left: 104px;
+    margin-top: 112px;
+  }
+  thead.thead {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  tr.trGraph {
+    font-size: 15px;
+    line-height: 58px;
+  }
+    /*-------------------------recent-works-----------------------*/
+    .container {
+        position: absolute;
+        top: -104px;
+        left: -27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .products-box {
+        padding: 232px;
+        margin-left: -212px;
+      }
+      .title-all.text-center p {
+        margin-left: -50px;
+        margin-top: 52px;
+        font-size: 11px;
+        width: 137px;
+      }
+      .special-menu {
+        width: 166px;
+        margin-top: 210px;
+        margin-left: 142px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .filter-button-group button {
+        padding: 7px 16px;
+        font-size: 15px;
+        width: 157px;
+        margin-bottom: 9px;
+      }
+      .img-fluid {
+        height: auto;
+        width: 144px;
+      }
+      .row.special-list {
+        top: 22px;
+        left: 68px;
+        width: 167px;
+      }
+      .products-single .box-img-hover {
+        width: 246px;
+        left: -7px;
+      }
+      .mask-task {
+        width: 59%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0px;
+      }
+      .mask-task h2 {
+        font-size: 20px;
+        width: 109px;
+        position: absolute;
+        left: 22px;
+        top: 3vh;
+        display: flex;
+      }
+}
+@media only screen and (max-width: 393px) {
+    .contacts {
+        left: 122px;
+    }
+    .footer-container {
+        width: 290px;
+        height: 93px;
+    }
+    .contact-box {
+        left: 124px;
+        height: 177vh;
+    }
+}
+@media only screen and (max-width: 375x) {
+    /*--------------------------ACTIVITY----------------------*/
+
+table.table {
+    margin-left: 103px;
+    margin-top: 78px;
+    line-height: 36px;
+  }
+  thead.thead {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  tr.trGraph {
+    font-size: 8px;
+    line-height: 18px;
+  }
+
+  /*-------------------------recent-works-----------------------*/
+  .products-box {
+    padding: 232px;
+    margin-left: -212px;
+  }
+  .special-menu {
+    width: 201px;
+    position: absolute;
+    left: 247px;
+    top: 81px;
+  }
+  .filter-button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .filter-button-group button {
+    width: 169px;
+    padding: 6px 16px;
+    font-size: 15px;
+    margin-bottom: 9px;
+  }
+  .img-fluid {
+    height: auto;
+    width: 233px;
+  }
+  .row.special-list {
+    width: 248px;
+    top: 310px;
+    left: 174px;
+  }
+  .products-single .box-img-hover {
+    position: relative;
+    width: 275px;
+    left: 0px;
+  }
+  .mask-task h2 {
+    font-size: 25px;
+    width: 131px;
+    border-radius: 6px;
+    position: absolute;
+    left: 42px;
+    top: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /*------------------------------CONTACT-----------------------*/
+   /*-------------------------contacts-----------------------*/
+  .contacts {
+    position: absolute;
+    top: 70px;
+    left: 119px;
+  }
+  .contact {
+    width: 220px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
+    height: 335px;
+    text-align: center;
+  }
+  .contact:hover {
+    background-color: var(--main-color);
+    box-shadow: -54px 256px 170px rgb(0 0 0 / 30%);
+    text-align: center;
+    border-left: 10px solid var(--orange-color);
+    border-bottom-left-radius: 94px;
+  }
+  .contact .icon {
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    border-radius: 111px;
+    background-color: antiquewhite;
+    margin-left: 60px;
+    position: absolute;
+    top: 27px;
+  }
+  .content-contact {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+  .content-contact p {
+    margin-top: -42px;
+    padding: 6px;
+  }
+  .contact-box {
+    position: absolute;
+    top: 1107px;
+    left: 113px;
+    width: 233px;
+    background-color: #f7f7f7;
+    height: 1165px;
+    padding: 45px 0px 0px 0px;
+    box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
+  }
+  .box {
+    width: 223px;
+    position: absolute;
+  }
+  .map {
+    margin-left: 0px;
+  }
+  .form-label {
+    border: 1px solid var(--orange-color);
+    border-radius: 50px;
+    width: 54%;
+    height: 61%;
+    background-color: var(--submit-color);
+    margin-top: 40px;
+    margin-left: 33px;
+    text-align: center;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--submit-color);
+    background-clip: padding-box;
+    border: 2px solid var(--orange-color);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-left: -23px;
+  }
+  input.btn.btn-primary {
+    background-color: var(--submit-color);
+    position: absolute;
+    left: -109px;
+    border: 2px solid var(--orange-color);
+  }
+  input.btn2.btn-primary {
+    margin-left: 36px;
+    background-color: var(--submit-color);
+    border: 2px solid var(--orange-color);
+    height: 39px;
+    border-radius: 5px;
+    width: 75px;
+    margin-top: -3px;
+  }
+  .footer-container {
+    position: absolute;
+    top: 2282px;
+    left: 100px;
+    background-color: var(--orange-color);
+    width: 261px;
+    text-align: center;
+    height: 115px;
+  }
+}
+@media only screen and (max-width: 360px){
+.contact {
+    width: 210px;
+}
+.footer-container {
+    width: 259px;
+}
+.contact-box {
+    left: 118px;
+    width: 222px;
+    height: 167vh;
+}
+}
+
+@media only screen and (max-width: 280px) {
+    /*---------------------------HOME------------------------------------*/    
+    .profile-img.text-center {
+        width: 137px;
+        height: 190px;
+    }
+    .button:hover {
+        width: 150px;
+        transition: ease-in-out 0.5s;
+    }
+    .button:hover span a {
+        margin-left: 36px;
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    .one-icon:hover span a {
+        margin-left: -11px;
+        font-size: 10px;
+        margin-top: -4px;
+    }
+.links {
+    top: -40px;
+    left: -40px;
+    width: 240px;
+    height: 240px;
+  }
+  .links a i {
+    font-size: 17px;
+  }
+  .links a:nth-child(1) {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 1px;
+    left: 101px;
+  }
+  #desktop {
+    position: absolute;
+    top: 5px;
+    left: -11px;
+  }
+  .links a:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 186px;
+    width: 32px;
+    height: 32px;
+  }
+  #user {
+    position: absolute;
+    top: 4px;
+    left: -8px;
+  }
+  .links a:nth-child(3) {
+    position: absolute;
+    top: 154px;
+    left: 183px;
+    width: 32px;
+    height: 32px;
+  }
+  #table {
+    position: absolute;
+    top: 5px;
+    left: -9px;
+  }
+  .links a:nth-child(4) {
+    position: absolute;
+    top: 200px;
+    left: 101px;
+    width: 32px;
+    height: 32px;
+  }
+  #chart {
+    position: absolute;
+    top: 6px;
+    left: -9px;
+  }
+  .links a:nth-child(5) {
+    position: absolute;
+    top: 154px;
+    left: 18px;
+    width: 32px;
+    height: 32px;
+  }
+  #th {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+  }
+  .links a:nth-child(6) {
+    position: absolute;
+    top: 56px;
+    left: 12px;
+    width: 32px;
+    height: 32px;
+  }
+  #circle {
+    position: absolute;
+    left: -10px;
+    top: 4px;
+  }
+  .square span:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 160px;
+  }
+  .square span:nth-child(2) {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 150px;
+    height: 150px;
+  }
+  div#myContain {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content2 {
+    position: relative;
+    top: 64px;
+    left: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+  div#p-explain {
+    font-size: 10px;
+    position: absolute;
+    top: 28px;
+  }
+  .content h3 {
+    font-size: 10px;
+  }
+  .caption {
+    width: 116px;
+    font-size: 10px;
+    position: absolute;
+    top: 14px;
+  }
+  .content2 a {
+    position: absolute;
+    top: 151px;
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 10px;
+  }
+
+   /*-------------------------about-----------------------*/
+   .content-title2 {
+    position: absolute;
+    top: 12px;
+    left: 147px;
+    width: 98px;
+    height: 29px;
+}
+  .content-title2 h1 {
+    font-size: 12px;
+}
+  #checked:checked ~ .content .row {
+    margin-left: 55px;
+  }
+  #checked:checked ~ .content .download-cv {
+    margin-left: 55px;
+  }
+  .content .row {
+    position: absolute;
+    top: 50px;
+    left: 116px;
+  }
+  .progress-bar span {
+    font-size: 7px;
+}
+.progress-bar {
+    font-size: 7px;
+}
+  .skills {
+    width: 149px;
+    display: flex;
+    flex-direction: column;
+    height: 324px;
+    margin-top: 20px;
+  }
+  .progress {
+    display: flex;
+    height: 1rem;
+    font-size: 10px;
+    margin-top: 16px;
+  }
+  .content .row .education {
+    position: absolute;
+    top: 710px;
+    left: 11px;
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    height: 303px;
+  }
+  .content .row .experience {
+    position: absolute;
+    top: 1035px;
+    left: 15px;
+    width: 149px;
+    display: flex;
+    flex-direction: column;
+    height: 294px;
+  }
+  #cert-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1341px;
+    left: -4px;
+  }
+  .img1-border {
+    height: 313px;
+    width: 154px;
+  }
+  .img2-border {
+    height: 313px;
+    width: 154px;
+  }
+  .mask-icon {
+    width: 154px;
+    height: 307px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  .mask-icon h2 {
+    font-size: 21px;
+    width: 129px;
+    position: absolute;
+    left: 5vw;
+    top: 20vh;
+  }
+  .download-cv {
+    position: absolute;
+    left: 109px;
+    margin-top: 70px;
+    width: 159px;
+    height: 41px;
+}
+  .download-cv button {
+    padding: 15px;
+    width: 152px;
+    height: 42px;
+    margin-left: 2px;
+  }
+  .cv {
+    width: 154px;
+    height: 289px;
+    position: absolute;
+    top: 1672px;
+    right: -135px;
+  }
+  .modal {
+    padding-top: 113px;
+    left: 89px;
+    top: 16px;
+    width: 77%;
+    height: 98%;
+  }
+  .modal-content {
+    width: 80%;
+    height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 131px;
+    right: 40px;
+    font-size: 34px;
+  }
+  /*-------------------------services-----------------------*/
+  .services {
+    position: absolute;
+    top: 68px;
+    left: 114px;
+  }
+  .service {
+    width: 153px;
+    height: 561px;
+    margin-bottom: 18px;
+  }
+  .content-service h5 {
+    margin-top: 27px;
+    margin-bottom: 120px;
+    width: 160px;
+    margin-left: -6px;
+  }
+  .content-service p {
+    margin-top: -136px;
+    padding: 27px;
+  }
+  /*-------------------------recent-works-----------------------*/
+  .container {
+    position: absolute;
+    top: -104px;
+    left: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+  .products-box {
+    padding: 232px;
+    margin-left: -212px;
+  }
+  .title-all.text-center p {
+    margin-left: -50px;
+    margin-top: 52px;
+    font-size: 11px;
+    width: 137px;
+  }
+  .special-menu {
+    width: 166px;
+    margin-top: 210px;
+    margin-left: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .filter-button-group button {
+    padding: 7px 16px;
+    font-size: 15px;
+    width: 157px;
+    margin-bottom: 9px;
+  }
+  .img-fluid {
+    height: auto;
+    width: 144px;
+  }
+  .row.special-list {
+    top: 22px;
+    left: 156px;
+    width: 167px;
+  }
+  .products-single .box-img-hover {
+    width: 246px;
+    left: -7px;
+  }
+  .mask-task {
+    width: 59%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+  }
+  .mask-task h2 {
+    font-size: 20px;
+    width: 109px;
+    position: absolute;
+    left: 22px;
+    top: 3vh;
+    display: flex;
+  }
+  /*-------------------------contacts-----------------------*/
+  .contacts {
+    position: absolute;
+    top: 67px;
+    left: 118px;
+  }
+  .contact {
+    width: 145px;
+    height: 335px;
+  }
+  .box {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .contact .icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 30px;
+    position: absolute;
+    top: 27px;
+  }
+  .contact .icon i {
+    font-size: 37px;
+    margin-top: 25px;
+  }
+  .content-contact {
+    position: absolute;
+    top: 140px;
+    left: -9px;
+  }
+  .content-contact p {
+    margin-top: -42px;
+    padding: 36px;
+    font-size: 9px;
+  }
+  .contact-box {
+    position: absolute;
+    top: 1096px;
+    left: 114px;
+    width: 153px;
+    height: 1164px;
+    padding: 45px 0px 0px 0px;
+  }
+  .map {
+    margin-left: 0px;
+  }
+  .form-label {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .form-control {
+    font-size: 12px;
+    width: 112px;
+  }
+  input.btn.btn-primary {
+    position: absolute;
+    left: -46px;
+    top: 562px;
+  }
+  input.btn2.btn-primary {
+    margin-left: 151px;
+    height: 39px;
+    width: 75px;
+    margin-top: -3px;
+  }
+  .footer-container {
+    position: absolute;
+    top: 2265px;
+    left: 105px;
+    width: 184px;
+    height: 139px;
+  }
+  /*-------------------------activity-----------------------*/
+  table.table {
+    margin-left: 103px;
+    margin-top: 78px;
+    line-height: 36px;
+  }
+  thead.thead {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  tr.trGraph {
+    font-size: 8px;
+    line-height: 18px;
+  }
+}
