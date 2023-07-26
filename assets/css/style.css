@@ -339,10 +339,7 @@ label #sidebar-btn:hover {
 }
 /*-------------------------------------------------------2. HOME-CONTENT-STYLE ------------------------------------------------------*/
 .content .banner {
-  background: url(../img/banner.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #53a36ce0;
   height: 126vh;
   margin-left: 0px;
   transition: 0.5s ease-in-out;
@@ -921,10 +918,13 @@ img#bulb {
   transition: 0.5s;
 }
 #checked:checked ~ .sidebar2 a {
-  font-size: 15px;
+  font-size: 13px;
   width: 100%;
   overflow: hidden;
   transition: 0.5s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 #checked {
   display: none;
